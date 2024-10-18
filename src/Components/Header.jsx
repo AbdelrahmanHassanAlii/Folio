@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import style from "../assets/CSS/header.module.css";
+import CV from "../assets/pdfs/Abdelrahman.pdf";
 export default function Header() {
   return (
     <div className={style.header}>
@@ -23,24 +24,26 @@ export default function Header() {
                 </NavLink>
               </li>
               <li>
-                <a href="#about" className={style.activeLink}>
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className={style.activeLink}>
+                <NavLink
+                  to="/projects"
+                  className={({ isActive }) =>
+                    isActive ? style.activeLink : ""
+                  }
+                >
                   Projects
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className={style.activeLink}>
-                  Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
-          <div className="cvButton">
-            <Link to="/cv">Download CV</Link>
+          <div className={style.cvButton}>
+            <Link
+              to={CV}
+              target="_blank"
+              rel="noreferrer"
+              download="Abdelrahman Hassan CV.pdf"
+            >
+              Download CV
+            </Link>
           </div>
         </div>
       </div>
