@@ -1,0 +1,29 @@
+.cvButton {
+  background-image: linear-gradient(
+    to right,
+    var(--lime-blue-color),
+    var(--blue-color)
+  );
+  opacity: 0.8;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: var(--transition);
+  a {
+    color: var(--white-color);
+  }
+  &:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--blue-color),
+      var(--lime-blue-color)
+    );
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
