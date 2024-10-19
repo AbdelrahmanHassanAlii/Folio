@@ -1,9 +1,11 @@
-import Header from "../Components/Header";
+import LandingSection from "../Components/LandingSection";
 
 export default function Home() {
   return (
     <div>
-      <Header />
+      <div className="container">
+        <LandingSection />
+      </div>
     </div>
-  )
+  );
 }
