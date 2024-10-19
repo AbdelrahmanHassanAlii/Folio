@@ -14,7 +14,6 @@
 
   --lime-blue-color: rgb(30, 159, 171);
   --blue-color: rgb(40, 91, 212);
-  
 
   --yellow-color: rgb(192, 166, 49);
   --yellow-color-2: rgba(244, 206, 39, 0.4);
@@ -34,13 +33,13 @@
 html {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body {
   background-color: var(--body-color);
   color: var(--text-color-second);
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 a {

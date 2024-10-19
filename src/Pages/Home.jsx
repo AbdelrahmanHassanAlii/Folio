@@ -1,3 +1,4 @@
+import About from "../Components/About";
 import LandingSection from "../Components/LandingSection";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div>
       <div className="container">
         <LandingSection />
+        <About />
       </div>
     </div>
   );
