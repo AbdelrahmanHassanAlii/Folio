@@ -10,7 +10,7 @@ export default function Heading({ name, description }) {
   }, []);
 
   return (
-    <div className={style.heading}>
+    <div data-aos="fade-up" className={style.heading}>
       <p className={style.name}>{name}</p>
       <p className={style.description}>{description}</p>
     </div>
