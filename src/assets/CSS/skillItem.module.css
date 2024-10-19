@@ -1,0 +1,46 @@
+.skillItem {
+  padding: 10px 10px 20px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.skillNameContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.skillName {
+  font-weight: bold;
+}
+
+.level {
+  opacity: 0.7;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: var(--first-color);
+}
+
+.skillLevelContainer {
+  width: 100%;
+  height: 5px;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skillLevel {
+  height: 100%;
+  background: linear-gradient(to right, var(--lime-blue-color) , var(--blue-color));
+  animation: progressAnimation 2s ease-out forwards;
+  -webkit-animation: progressAnimation 2s ease-out forwards;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: calc(var(--skill-width) * 1%);
+  }
+}
