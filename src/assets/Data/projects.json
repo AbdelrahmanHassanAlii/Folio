@@ -1,0 +1,131 @@
+[
+  {
+    "id": "1",
+    "type": "odd",
+    "image_1": "https://i.imgur.com/nj0VZxg.png",
+    "image_2": "https://i.imgur.com/LiiRGM1.png",
+    "image_3": "https://i.imgur.com/mpkVL4P.png",
+    "title": "Git Repo",
+    "description": "The GitHub User Information Retrieval Tool is a web application that leverages the GitHub API to provide users with detailed information about any GitHub user. Users can input the username of the GitHub user they are interested in, and the application will retrieve and display various details about that user, including their profile picture, bio, location, number of followers, number of repositories, and more",
+    "status": "completed",
+    "accessCode": "no",
+    "codeLink": "https://github.com/AbdelrahmanHassanAlii/Git-Repo",
+    "accessDemo": "no",
+    "demoLink": "https://abdelrahmanhassanalii.github.io/Git-Repo/",
+    "accessDesign": "no",
+    "designLink": "https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6",
+    "level": "junior",
+    "technologyStack": ["HTml", "CSS", "JavaScript", "React"],
+    "features": [
+      "User Information Retrieval",
+      "User Search",
+      "User Repository Search"
+    ],
+    "team": [
+      {
+        "id": "1",
+        "name": "Abdelrahman Hassan Ali",
+        "image": "abdelrahman",
+        "role": "Frontend Developer",
+        "description": "",
+        "url": "https://abdelrahmanhassanalii.github.io/card/"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "type": "even",
+    "image_1": "https://i.imgur.com/XeQX62j.png",
+    "image_2": "https://i.imgur.com/O3rzRBM.png",
+    "image_3": "https://i.imgur.com/HMqLwR8.png",
+    "title": "Star Stage",
+    "description": "The Movie and Series Explorer is a web application that utilizes The Movie Database (TMDb) API to categorize and display movies and TV series to users. With a vast collection of movies and TV series available, users can explore various genres, discover popular titles, and find new favorites effortlessly",
+    "status": "completed",
+    "accessCode": "no",
+    "codeLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "accessDemo": "no",
+    "demoLink": "https://github.com/Hassan-Elshamy/Portfolio",
+    "accessDesign": "no",
+    "designLink": "https://www.frontendmentor.io/challenges/entertainment-web-app-J-UhgAW1X",
+    "level": "advanced",
+    "technologyStack": ["HTml", "CSS", "JavaScript", "React"],
+    "features": [
+      "Show mixed movies, series",
+      "Searching for movies and series by name",
+      "Filtering movies and series by category",
+      "Pagination",
+      "Add to Wishlist"
+    ],
+    "team": [
+      {
+        "id": "1",
+        "name": "Abdelrahman Hassan Ali",
+        "image": "abdelrahman",
+        "role": "Frontend Developer",
+        "description": "",
+        "url": "https://github.com/AbdelrahmanHassanAlii"
+      },
+      {
+        "id": "2",
+        "name": "Hassan Elshamy",
+        "image": "hassan",
+        "role": "Backend Developer",
+        "description": "",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "type": "odd",
+    "image_alt": "Black Mart",
+    "image_1": "https://i.imgur.com/CPn66EY.png",
+    "image_2": "https://i.imgur.com/lRI17Wp.png",
+    "image_3": "https://i.imgur.com/QeHf1qz.png",
+    "title": "Black Mart",
+    "description": "The Movie and Series Explorer is a web application that utilizes The Movie Database (TMDb) API to categorize and display movies and TV series to users. With a vast collection of movies and TV series available, users can explore various genres, discover popular titles, and find new favorites effortlessly",
+    "status": "inProgress",
+    "accessCode": "no",
+    "codeLink": "https://github.com/AbdelrahmanHassanAlii/Black-Mart",
+    "accessDemo": "no",
+    "demoLink": "https://github.com/AbdelrahmanHassanAlii/Black-Mart",
+    "accessDesign": "no",
+    "designLink": "https://www.figma.com/design/mBGsi6GyGrutyiwjQIl3Gk/E-commerce-Website-Template-(Freebie)-(Community)?node-id=39-1402&node-type=canvas&t=8IJ3vkQcbIMdzx5c-0",
+    "level": "advanced",
+    "technologyStack": [
+      "HTml",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "features": [
+      "Admin has dashboard with full CRUD operations",
+      "User Filter Products by various ways",
+      "User can Searching by name",
+      "Paymet Online with Stripe",
+      "User can add to wishlist",
+      "User with full access with cart and checkout"
+    ],
+    "team": [
+      {
+        "id": "1",
+        "name": "Abdelrahman Hassan Ali",
+        "image": "abdelrahman",
+        "role": "Frontend Developer",
+        "description": "",
+        "url": "https://github.com/AbdelrahmanHassanAlii"
+      },
+      {
+        "id": "2",
+        "name": "Hassan Elshamy",
+        "image": "hassan",
+        "role": "Backend Developer",
+        "description": "",
+        "url": "#"
+      }
+    ]
+  }
+]
