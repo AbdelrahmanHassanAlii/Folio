@@ -1,0 +1,129 @@
+.contacatContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .contacatContent {
+    flex-direction: column;
+  }
+}
+
+.image {
+  flex: 1;
+}
+
+.form {
+  flex: 1;
+
+  form {
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+
+    .inputs {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 48%;
+      height: 55px;
+      padding: 10px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+    }
+
+    textarea {
+      width: 100%;
+      resize: none;
+      height: 250px;
+      padding: 10px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+    }
+
+    input,
+    textarea {
+      border: 1px solid var(--gray-color);
+      color: var(--gray-color-3);
+      font-size: 18px;
+      outline: none;
+      caret-color: var(--gray-color-3);
+    }
+
+    input:hover,
+    textarea:hover {
+      outline: none;
+      border: 1px solid var(--gray-color-2);
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border: 1px solid var(--gray-color-3);
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+    }
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 50%;
+      padding: 10px 15px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      background-color: var(--white-color);
+      color: var(--gray-color-3);
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+      border: 1px solid var(--gray-color-1);
+      transition: all 0.3s ease-out;
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+    }
+
+    .gmail {
+      color: #d14836;
+      margin-right: 10px;
+      &:hover {
+        background-color: #d14836;
+        color: var(--white-color);
+      }
+    }
+
+    .whats {
+      color: #25d366;
+
+      &:hover {
+        background-color: #25d366;
+        color: var(--white-color);
+      }
+    }
+  }
+}

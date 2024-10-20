@@ -1,4 +1,5 @@
 import About from "../Components/About";
+import Contact from "../Components/Contact";
 import LandingSection from "../Components/LandingSection";
 import Projects from "../Components/Projects";
 import Services from "../Components/Services";
@@ -13,6 +14,7 @@ export default function Home() {
         <Skills />
         <Services />
         <Projects />
+        <Contact />
       </div>
     </div>
   );
