@@ -4,12 +4,12 @@ import AOS from "aos";
 import Typed from "typed.js";
 import "aos/dist/aos.css";
 import style from "../assets/CSS/landingSection.module.css";
-import image from "../assets/Images/448095644_1765044390687657_7853853710402917463_n-removebg-preview.png";
+import image from "../assets/Images/448095644_1765044390687657_7853853710402917463_n-removebg-preview-modified.png";
 
 import Social from "./Social";
 
 export default function LandingSection() {
-  const typedRef = useRef(null); 
+  const typedRef = useRef(null);
 
   useEffect(() => {
     AOS.init({ duration: 3000 });

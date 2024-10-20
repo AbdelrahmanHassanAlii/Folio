@@ -24,7 +24,6 @@
 
 .image {
   width: 400px;
-
   object-fit: cover;
   border-radius: 10px;
   z-index: 100;
