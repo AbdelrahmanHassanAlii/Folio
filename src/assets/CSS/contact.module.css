@@ -19,9 +19,17 @@
   flex: 1;
 
   form {
-    /* display: flex;
-    flex-direction: column;
-    gap: 20px; */
+    .inputContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      /* background-color: aliceblue; */
+      width: 100%;
+      .error {
+        color: red;
+        font-size: 12px;
+      }
+    }
 
     .inputs {
       display: flex;
@@ -32,7 +40,7 @@
     }
 
     input {
-      width: 48%;
+      width: 95%;
       height: 55px;
       padding: 10px;
       border-radius: 5px;
