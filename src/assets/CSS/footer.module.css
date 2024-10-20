@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 50px 0 50px;
+  background-color: var(--gray-color);
+
+  .title {
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      var(--lime-blue-color),
+      var(--blue-color)
+    );
+    -webkit-background-clip: text;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .copyright {
+    color: var(--gray-color-2);
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .designed {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--gray-color-2);
+    font-size: 15px;
+    font-weight: 500;
+    .name {
+      color: var(--blue-color);
+      font-weight: 600;
+    }
+  }
+}
