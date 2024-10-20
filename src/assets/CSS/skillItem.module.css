@@ -1,6 +1,6 @@
 .skillItem {
   padding: 10px 10px 20px 10px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--gray-color);
 }
 
 .skillNameContainer {
@@ -12,26 +12,47 @@
 
 .skillName {
   font-weight: bold;
+  color: transparent;
+  background-image: linear-gradient(
+    to left,
+    var(--lime-blue-color),
+    var(--blue-color)
+  );
+  -webkit-background-clip: text;
+  opacity: 0.7;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.skillItem:hover .skillName {
+  opacity: 1;
 }
 
 .level {
   opacity: 0.7;
   font-size: 0.7rem;
   font-weight: bold;
-  color: var(--first-color);
+  color: var(--blue-color);
 }
 
 .skillLevelContainer {
   width: 100%;
   height: 5px;
-  background-color: var(--color-white);
+  background-color: var(--white-color);
   border-radius: 10px;
   overflow: hidden;
 }
 
 .skillLevel {
   height: 100%;
-  background: linear-gradient(to right, var(--lime-blue-color) , var(--blue-color));
+  background: linear-gradient(
+    to right,
+    var(--lime-blue-color),
+    var(--blue-color)
+  );
   animation: progressAnimation 2s ease-out forwards;
   -webkit-animation: progressAnimation 2s ease-out forwards;
 }

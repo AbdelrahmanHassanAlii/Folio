@@ -1,0 +1,30 @@
+[
+  {
+    "skillName": "HTML5",
+    "skillLevel": "90%"
+  },
+  {
+    "skillName": "CSS3",
+    "skillLevel": "90%"
+  },
+  {
+    "skillName": "Javascript",
+    "skillLevel": "80%"
+  },
+  {
+    "skillName": "React",
+    "skillLevel": "90%"
+  },
+  {
+    "skillName": "NodeJS",
+    "skillLevel": "80%"
+  },
+  {
+    "skillName": "MySQL",
+    "skillLevel": "70%"
+  },
+  {
+    "skillName": "MongoDB",
+    "skillLevel": "90%"
+  }
+]

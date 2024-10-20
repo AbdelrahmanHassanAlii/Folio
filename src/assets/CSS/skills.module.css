@@ -1,0 +1,16 @@
+.skillSection {
+  background-color: #f5f5f5;
+  padding: 50px 30px;
+  border-radius: 8px;
+}
+
+.skillsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
