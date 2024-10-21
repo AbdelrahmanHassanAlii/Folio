@@ -11,7 +11,7 @@ export default function ProjectItem({ id, image, title, image_1 }) {
   return (
     <Link
       data-aos="zoom-in-up"
-      to={`/projects/${id}`}
+      to={`/project/${id}`}
       className={style.projectItem}
     >
       <div className={style.imageContainer}>

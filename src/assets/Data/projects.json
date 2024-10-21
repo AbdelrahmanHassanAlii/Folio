@@ -83,7 +83,7 @@
     "image_2": "https://i.imgur.com/lRI17Wp.png",
     "image_3": "https://i.imgur.com/QeHf1qz.png",
     "title": "Black Mart",
-    "description": "The Movie and Series Explorer is a web application that utilizes The Movie Database (TMDb) API to categorize and display movies and TV series to users. With a vast collection of movies and TV series available, users can explore various genres, discover popular titles, and find new favorites effortlessly",
+    "description": "Black Mart is an E-Commerce Product Management System built using the MERN stack (MongoDB, Express.js, React, Node.js). It allows users to create and manage products with features like image uploads, slug generation, and validation using Joi. Users can add product details like name, price, description, quantity, and optional fields such as style and discount. The system also supports file handling for product images and checks for duplicate products.",
     "status": "inProgress",
     "accessCode": "no",
     "codeLink": "https://github.com/AbdelrahmanHassanAlii/Black-Mart",
