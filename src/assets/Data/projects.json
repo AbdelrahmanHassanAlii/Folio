@@ -127,5 +127,44 @@
         "url": "#"
       }
     ]
+  },
+  {
+    "id": "4",
+    "type": "odd",
+    "image_alt": "Responsive Calculator App",
+    "image_1": "https://imgur.com/4PVALcA.png",
+    "image_2": "https://imgur.com/DCJM54G.png",
+    "image_3": "https://imgur.com/6MmoCUd.png",
+    "title": "Responsive Calculator App",
+    "description": "This is a responsive calculator app built using HTML, CSS and JavaScript. It features a visually appealing and user-friendly interface, making it easy for users to perform basic arithmetic operations.",
+    "status": "completed",
+    "accessCode": "no",
+    "codeLink": "https://github.com/AbdelrahmanHassanAlii/Calculator",
+    "accessDemo": "no",
+    "demoLink": "https://calculator-taupe-iota-89.vercel.app/",
+    "accessDesign": "no",
+    "designLink": "https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29",
+    "level": "intermediate",
+    "technologyStack": [
+      "HTml",
+      "CSS",
+      "JavaScript"
+    ],
+    "features": [
+      "Responsive Design",
+      "User-friendly Interface",
+      "Basic Arithmetic Operations"
+      
+    ],
+    "team": [
+      {
+        "id": "1",
+        "name": "Abdelrahman Hassan Ali",
+        "image": "abdelrahman",
+        "role": "Frontend Developer",
+        "description": "",
+        "url": "https://github.com/AbdelrahmanHassanAlii"
+      }
+    ]
   }
 ]
