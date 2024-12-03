@@ -131,11 +131,11 @@
   {
     "id": "4",
     "type": "odd",
-    "image_alt": "Responsive Calculator App",
+    "image_alt": "Calculator Image",
     "image_1": "https://imgur.com/4PVALcA.png",
     "image_2": "https://imgur.com/DCJM54G.png",
     "image_3": "https://imgur.com/6MmoCUd.png",
-    "title": "Responsive Calculator App",
+    "title": "Calculator App",
     "description": "This is a responsive calculator app built using HTML, CSS and JavaScript. It features a visually appealing and user-friendly interface, making it easy for users to perform basic arithmetic operations.",
     "status": "completed",
     "accessCode": "no",
@@ -153,8 +153,9 @@
     "features": [
       "Responsive Design",
       "User-friendly Interface",
-      "Basic Arithmetic Operations"
-      
+      "Basic Arithmetic Operations",
+      "Toogle between 3 designs / themes" 
+
     ],
     "team": [
       {
