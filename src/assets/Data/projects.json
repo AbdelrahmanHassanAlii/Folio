@@ -145,17 +145,53 @@
     "accessDesign": "no",
     "designLink": "https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29",
     "level": "intermediate",
-    "technologyStack": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "technologyStack": ["HTML", "CSS", "JavaScript"],
     "features": [
       "Responsive Design",
       "User-friendly Interface",
       "Basic Arithmetic Operations",
-      "Toogle between 3 designs / themes" 
-
+      "Toogle between 3 designs / themes"
+    ],
+    "team": [
+      {
+        "id": "1",
+        "name": "Abdelrahman Hassan Ali",
+        "image": "abdelrahman",
+        "role": "Frontend Developer",
+        "description": "",
+        "url": "https://github.com/AbdelrahmanHassanAlii"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "type": "odd",
+    "image_alt": "Card with Cart",
+    "image_1": "https://imgur.com/nb4oCPd.png",
+    "image_2": "https://imgur.com/60yKCRV.png",
+    "image_3": "https://imgur.com/i9CWBGi.png",
+    "title": "Cards with Cart",
+    "description": "This is a responsive cards app built using HTML, CSS and JavaScript. It features a visually appealing and user-friendly interface, making it easy for users to perform basic cart operations.",
+    "status": "completed",
+    "accessCode": "no",
+    "codeLink": "https://github.com/AbdelrahmanHassanAlii/productListWithCart",
+    "accessDemo": "no",
+    "demoLink": "https://product-list-with-cart-pied-six.vercel.app/",
+    "accessDesign": "no",
+    "designLink": "https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d",
+    "level": "junior",
+    "technologyStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "taiwind",
+      "vite"
+    ],
+    "features": [
+      "Responsive Design",
+      "User-friendly Interface",
+      "Basic Cart Operations"
     ],
     "team": [
       {
